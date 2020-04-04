@@ -29,7 +29,7 @@ public class BFS {
 		array[s].setDistance(0);
 		array[s].setParent(null);	
 		
-		Queue<Vertex> queue = new LinkedList<Vertex>();
+		Queue<Vertex> queue = new LinkedList<Vertex>(); // Queue DS
 		queue.add(array[s]);
 		while (!queue.isEmpty()) {
 			Vertex w = queue.remove();

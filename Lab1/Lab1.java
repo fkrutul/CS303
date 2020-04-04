@@ -68,9 +68,9 @@ public class Lab1 {
     		Random randInt = new Random();
     		int e = List.get((randInt.nextInt(1000)));
     		
-    		long startlinearTime = System.nanoTime();
+    		long startlinearTime = System.nanoTime(); // start timer
     		linearSearch(Array, e);
-    		long endlinearTime = System.nanoTime();
+    		long endlinearTime = System.nanoTime(); // end timer
     		long linearTime = endlinearTime - startlinearTime;
 
     		Arrays.sort(Array); 
